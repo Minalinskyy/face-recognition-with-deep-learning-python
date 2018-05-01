@@ -210,7 +210,7 @@ for j in range(1,6):
 
 
 # and we need to use opencv to apply face detection and LPB of every image
-# here we have totally 1500 photos, 500 for everyone
+# here we have totally 2000 photos, 500 for everyone
 
 # the file of OPENCV for face detection
 #path = '/home/pi/Desktop/opencv-2.4.10/data/haarcascades/'
@@ -235,7 +235,7 @@ def get_pixel_else_0(l, idx, idy, default=0):
         return default
 
 # we apply LBP and face detection to all photos and save the new photos
-for i in range(4,5):# that means i = 1,2,3,4
+for i in range(1,5):# that means i = 1,2,3,4
 	if i == 1:
 	    mypath = './changedphoto/fu'
 	elif i == 2:
